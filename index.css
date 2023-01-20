@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+    
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color:rgb(106, 118, 139);
+    box-shadow: 1px 1px 5px black;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+.logo {
+    display: flex;
+    width: 50px;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 20px;
+}
+.pencarian {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+} 
+
+.buat_akun {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 350px;
+}
+
+main {
+    display: flex;
+}
+
+
+
+.satu a {
+    margin: 10px;
+    color: black;
+
+}
+
+.dua a {
+    margin: 10px;
+    color: aqua;
+    border-width: 1px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box-left {
+    height: 300px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 16px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.box-menu {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-left: 16px;
+}
+
+.content-center .list-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 16px;
+    list-style: none;
+}
+
+li p {
+    padding-left: 10px;
+    margin-top: 140px;
+}
+
+.menu-list {
+    display: flex;
+    width: 800px;
+    margin-left: 16px   ;
+}
+
+.menu1 {
+    font-weight: bold;
+    font-size: large;
+} 
+
+
+.kosong {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 270px;
+    background-color: grey;
+    margin-left: 16px;
+}
+
+.card {
+    background-color: blue;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 16px;
+    margin-left: 16px;
+    height: 200px;
+    width: 800px;
+}
+
+.wrapp-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    padding-left: 10px
+}
+
+.nama {
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.ipsum {
+    margin-left: 80px;
+}
+
+.card {
+    background-color: blue;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 16px;
+    margin-left: 16px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.wrapp-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    padding-left: 10px
+}
+
+.nama {
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.ipsum {
+    margin-left: 80px;
+}
+
+.wrapp-profile {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    padding-left: 10px
+}
+
+.nama {
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.ipsum {
+    margin-left: 80px;
+}
+
+.content-box-kanan {
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.kanan1 {
+    height: 500px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(61, 99, 155);
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 150px;
+}
+
+.kanan2 {
+    height: 400px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(61, 99, 155);
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+
+
+/* .container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(51, 77, 105);
+    opacity: .8;
+    box-shadow: 1px 1px 10px black;
+}
+
+.brand {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 50px;
+    margin-left: 10px;
+}
